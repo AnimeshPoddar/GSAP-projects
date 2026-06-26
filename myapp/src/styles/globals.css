@@ -15,6 +15,12 @@
   --font-serif: "DM Serif Text", serif;
 }
 
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -68,7 +74,7 @@ body {
     @apply fixed z-50 w-full;
 
     div {
-      @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto;
+      @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto bg-amber-400;
     }
 
     p {
